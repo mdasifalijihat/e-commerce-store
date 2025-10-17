@@ -38,56 +38,9 @@ export default function RootLayout({
           </a>
         </nav>
         <div className="h-[calc(100vh-64px)] grid grid-rows-[1fr_auto_auto] p-4 sm:p-8">
-      <main className="row-start-1 flex flex-col items-center justify-center text-center">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-          Welcome to{" "}
-          <a
-            className="text-[#0070f3] hover:underline"
-            href="https://nextjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Next.js!
-          </a>
-        </h1>
-        <p className="text-lg sm:text-xl text-black/[.8] dark:text-white/[.75] mb-6 max-w-[700px]">
-          Get started by editing&nbsp;
-          <code className="font-mono font-medium bg-black/[.05] dark:bg-white/[.075] rounded px-1.5 py-0.5">
-            app/page.tsx
-          </code>
-          .
-        </p>
-        <div className="flex gap-4 flex-col sm:flex-row">
-          <a
-            className="rounded-full bg-[#0070f3] text-white font-medium text-sm sm:text-base px-4 sm:px-5 h-10 sm:h-12 flex items-center justify-center hover:bg-[#005bb5]"
-            href="https://nextjs.org/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read the docs
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Deploy
-          </a>
-        </div>
-      </main>
+     
        {children}
-      <footer className="row-start-3 flex gap-2 justify-center text-sm text-black/[.5] dark:text-white/[.5] py-4">
-        Powered by{" "}
-        <a
-          className="text-black/[.8] dark:text-white/[.75] hover:underline"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vercel
-        </a>
-      </footer>
+    
     </div>
        
       </body>
