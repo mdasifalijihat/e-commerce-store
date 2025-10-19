@@ -38,7 +38,7 @@ export default function RootLayout({
           </a>
         </nav>
         <div className="h-[calc(100vh-64px)] grid grid-rows-[1fr_auto_auto] p-4 sm:p-8">
-     
+      
        {children}
     
     </div>
